@@ -1165,6 +1165,17 @@
   }
 
   @media (max-width: 520px) {
+    
+    .buttonContainer .js-linked-node, #el_1737223361641_382 {
+      max-width: 100% !important;
+    }
+    
+  #el_1737223188237_353 {
+  	flex-direction: column;
+    width: 100%;
+    max-width: 100% !important;
+  }  
+      
   .playPauseButton {
     height: 60px;
     width: 60px;
@@ -1220,8 +1231,14 @@
       gap: 10px;
     }
     
+    .mobileInfo {
+      gap: 10px;
+      justify-content: flex-start !important;
+    }
+    
     .courseFeatures {
     	margin-top: 10px;
+      margin-bottom: 10px;
     }
     
     .courseHeaderLeft {
@@ -1280,12 +1297,6 @@
 
     #el_1737223188237_353 {
       gap: 10px;
-    }
-
-    .buttonContainer .js-linked-node,
-    #el_1737223361641_382 {
-      flex: 1 1 calc(50% - 5px) !important;
-      max-width: calc(50% - 5px) !important;
     }
   }
 
